@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23bcaadc.css",
+    "main.js": "/static/js/main.a7662b4d.js",
+    "static/media/marksheet.png": "/static/media/marksheet.deaab1ed69ff0195d2f9.png",
+    "static/media/waido.png": "/static/media/waido.793544ca3ba61a2e3b7d.png",
+    "static/media/3rentan.png": "/static/media/3rentan.2ab5fc9a7f1bd918ea14.png",
+    "static/media/tansyou.png": "/static/media/tansyou.22a529f860e3dd2c9fca.png",
+    "static/media/umatan.png": "/static/media/umatan.578d5f6f233bdc287720.png",
+    "static/media/umaren.png": "/static/media/umaren.3a1aaeba13f41baaa346.png",
+    "static/media/3renpuku.png": "/static/media/3renpuku.3a986453b0b2578d67ce.png",
+    "static/media/hukusyou.png": "/static/media/hukusyou.c276ee8b42875511cd9b.png",
+    "static/media/wakuren.png": "/static/media/wakuren.4c808b2a2eab7733c3c7.png",
+    "static/media/ouenbaken.png": "/static/media/ouenbaken.0f2063e195a25c6e0a4d.png",
+    "index.html": "/index.html",
+    "main.23bcaadc.css.map": "/static/css/main.23bcaadc.css.map",
+    "main.a7662b4d.js.map": "/static/js/main.a7662b4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23bcaadc.css",
+    "static/js/main.a7662b4d.js"
+  ]
+}
