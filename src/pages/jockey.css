@@ -1,0 +1,64 @@
+/* jockey.css based on horse.css */
+.jockey-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 16px;
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow-x: auto;
+}
+
+.jockey-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.jockey-container table {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.jockey-container table td,
+.jockey-container table th {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.jockey-container .jockey-history {
+  margin-top: 30px;
+}
+
+.jockey-container .jockey-history h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.jockey-container .jockey-history table th {
+  background-color: #eee;
+}
+
+@media (max-width: 640px) {
+  .jockey-container {
+    margin: 10px;
+    padding: 12px;
+  }
+
+  .jockey-container h1 {
+    font-size: 20px;
+  }
+
+  .jockey-container table,
+  .jockey-container .jockey-history table {
+    font-size: 14px;
+  }
+
+  .jockey-container table td,
+  .jockey-container table th {
+    padding: 6px;
+  }
+}

@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+}
+
+.app-main-content {
+  width: 100%;
+  max-width: 1100px;
+  background-color: #ffffff;
+  min-height: 100vh;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px;
+}
+
+.nav-button {
+  flex: 1;
+  max-width: 260px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: #374151;
+  white-space: nowrap;
+}
+
+.update-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.date-line {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 16px 24px 8px;
+}
+
+.course-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px 4px;
+}
+
+.course-header-item {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.race-column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 24px 24px;
+}
+
+.race-cell {
+  height: 70px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.race-num {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.race-time {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.race-detail-content {
+  padding: 24px;
+}
+
+#race-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#race-table th,
+#race-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+.waku-1 { background:#fff; color:#000; }
+.waku-2 { background:#000; color:#fff; }
+.waku-3 { background:#f00; color:#fff; }
+.waku-4 { background:#00f; color:#fff; }
+.waku-5 { background:#ff0; color:#000; }
+.waku-6 { background:#080; color:#fff; }
+.waku-7 { background:#ffa500; color:#fff; }
+.waku-8 { background:#ffc0cb; color:#000; }
+
+.yosou-select {
+  width: 48px;
+  text-align: center;
+  border: none;
+  background: transparent;
+  font-weight: bold;
+}
+
+.course-header-item {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

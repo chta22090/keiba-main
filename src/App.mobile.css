@@ -1,0 +1,78 @@
+@media (max-width: 768px) {
+  .app-container {
+    justify-content: flex-start;
+  }
+
+  .app-main-content {
+    max-width: none;
+    width: 100vw;
+    box-shadow: none;
+  }
+
+  .main-header {
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .nav-button {
+    max-width: none;
+    width: 100%;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+
+  .date-line {
+    font-size: 1.1rem;
+    padding: 12px 16px 4px;
+  }
+
+  .course-header-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 0.9rem;
+    padding: 0 12px 8px;
+  }
+
+  .race-column {
+    padding: 0 12px 16px;
+    gap: 6px;
+  }
+
+  .race-cell {
+    height: 56px;
+  }
+
+  .race-num {
+    font-size: 0.95rem;
+  }
+
+  .race-time {
+    font-size: 0.7rem;
+  }
+
+  .race-detail-content {
+    padding: 12px;
+  }
+
+  #race-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  #race-table th,
+  #race-table td {
+    font-size: 0.7rem;
+    padding: 6px;
+  }
+
+  .yosou-select {
+    width: 36px;
+    font-size: 0.8rem;
+  }
+}
+
+.course-header-item {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

@@ -1,0 +1,231 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.race-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 12px;
+  overflow-x: auto;
+}
+
+.race-header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.race-header-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.race-header-main h1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}
+
+.race-number {
+  font-weight: bold;
+}
+
+.race-meta {
+  font-size: 0.95rem;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.control-panel {
+  background-color: #e9e9e9;
+  padding: 15px;
+  margin: 0 auto 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  max-width: 900px;
+}
+
+.control-panel .control-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.control-panel label {
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.control-panel button {
+  margin-left: 20px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#race-table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#race-table th,
+#race-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#race-table th {
+  background-color: #004d99;
+  color: #fff;
+}
+
+#race-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.horse-name {
+  text-align: left !important;
+  font-weight: bold;
+}
+
+.waku-1 { background:#fff; color:#000; border-left:5px solid #000; }
+.waku-2 { background:#000; color:#fff; border-left:5px solid #000; }
+.waku-3 { background:#f00; color:#fff; border-left:5px solid #000; }
+.waku-4 { background:#00f; color:#fff; border-left:5px solid #000; }
+.waku-5 { background:#ff0; color:#000; border-left:5px solid #000; }
+.waku-6 { background:#080; color:#fff; border-left:5px solid #000; }
+.waku-7 { background:#fa0; color:#fff; border-left:5px solid #000; }
+.waku-8 { background:#fbc; color:#000; border-left:5px solid #000; }
+
+.waku-1,.waku-2,.waku-3,.waku-4,
+.waku-5,.waku-6,.waku-7,.waku-8 {
+  width: 30px;
+  font-weight: bold;
+}
+.waku-cell {
+  min-width: 34px;
+  font-weight: bold;
+}
+
+.yosou-cell {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.yosou-select {
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  width: 50px;
+  text-align: center;
+  appearance: none;
+}
+
+.yosou-honmei { color:#e3415c !important; }
+.yosou-taikou { color:#00f !important; }
+.yosou-tanana { color:#000 !important; }
+.yosou-renshita { color:#080 !important; }
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* =======================
+   スマホ対応
+======================= */
+@media (max-width: 768px) {
+  body {
+    margin: 6px;
+  }
+
+  header {
+    margin-bottom: 12px;
+    padding: 6px;
+  }
+
+  .control-panel {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+
+  .control-panel label {
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .control-panel button {
+    width: 100%;
+    margin: 8px 0 0;
+  }
+
+  #race-table {
+    display: block;
+    overflow-x: auto;
+    font-size: 0.78rem;
+    min-width: 640px;
+  }
+
+  #race-table th,
+  #race-table td {
+    padding: 4px 4px;
+  }
+
+  .horse-name {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .waku-1,.waku-2,.waku-3,.waku-4,
+  .waku-5,.waku-6,.waku-7,.waku-8 {
+    width: 20px;
+    font-size: 0.7rem;
+    padding: 2px;
+  }
+
+  .yosou-select {
+    width: 32px;
+    font-size: 0.75rem;
+    padding: 0;
+  }
+
+  .yosou-cell {
+    font-size: 0.85rem;
+  }
+
+  .back-button {
+    display: block;
+    text-align: center;
+    margin: 12px 0;
+  }
+}

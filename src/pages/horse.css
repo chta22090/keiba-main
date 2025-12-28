@@ -1,0 +1,64 @@
+/* horse.css */
+.horse-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 16px;
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow-x: auto;
+}
+
+.horse-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.horse-container table {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.horse-container table td,
+.horse-container table th {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.horse-container .horse-history {
+  margin-top: 30px;
+}
+
+.horse-container .horse-history h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.horse-container .horse-history table th {
+  background-color: #eee;
+}
+
+@media (max-width: 640px) {
+  .horse-container {
+    margin: 10px;
+    padding: 12px;
+  }
+
+  .horse-container h1 {
+    font-size: 20px;
+  }
+
+  .horse-container table,
+  .horse-container .horse-history table {
+    font-size: 14px;
+  }
+
+  .horse-container table td,
+  .horse-container table th {
+    padding: 6px;
+  }
+}
